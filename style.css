@@ -1,0 +1,168 @@
+body {
+    background-image: url('/assets/calum-lewis-vA1L1jRTM70-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: aqua;
+}
+
+/* Style for the topbar */
+#top-bar{
+    background-color: green;
+    color:white;
+    font-size: xx-large;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    display:flexbox
+}
+
+#top-bar img {
+    width: 30px;
+    height: auto;
+    margin-right: 0px;  
+}
+
+.search-bar {
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+}
+
+#search-form {
+    text-align: center;
+    display: flexbox;
+    background-color: green;
+    padding: 10px;
+}
+
+#search-input {
+    padding: 10px 12px;
+    border: 3px solid white;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+#search-input:focus {
+    outline: none;
+    border-color: greenyellow;
+}
+
+#search-form button {
+    padding: 5px 10px;
+    background-color: white;
+    color: green;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid white;
+}
+
+#search-form button:hover {
+    border-color: greenyellow;
+}
+
+/* Additional styling for recipe cards */
+#recipe-container {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.recipe-card {
+    margin: 10px;
+    border: 5px solid green;
+    border-radius: 5px;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    color: green;
+    background-color: rgba(255, 255, 255,  0.8);
+ }
+ 
+ 
+ .recipe-card img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+ }
+ 
+ 
+ .recipe-card h3 {
+    margin-bottom: 5px;
+ }
+ 
+ 
+ .recipe-card p {
+    font-style: italic;
+    margin-bottom: 5px;
+ }
+
+ .recipe-details {
+    border: 5px solid green;
+    border-radius: 5px;
+    color: green;
+    background-color: rgba(255, 255, 255,  0.8);
+    display: flexbox;
+ }
+
+ .recipe-details h2 {
+    font-size: xx-large;
+    margin-bottom: 20px;
+    text-align: center;
+ }
+
+ .recipe-details img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin: 0 auto;
+    display: block;
+    border: 5px solid green;
+ }
+
+ .recipe-details p {
+    font-size: large;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: bold;
+ }
+
+ .recipe-details h3 {
+    font-size: larger;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-style: italic;
+    text-decoration: underline;
+ }
+
+ .recipe-details ul {
+    list-style-type: disc;
+    font-size: large;
+    font-weight: bold;
+ }
+
+ .recipe-details li {
+    font-size: large;
+    margin-bottom: 5px;
+    font-weight: bold;
+ }
+ 
+.back-button {
+    background-color: green;
+    color:white;
+    padding: 5px 10px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 3px solid white;
+}
+
+.back-button:hover {
+    border-color: greenyellow;
+}
+
